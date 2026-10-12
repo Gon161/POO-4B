@@ -1,38 +1,44 @@
-# POO-4B — Material del curso
+# POO-4B — Curso de Nivelación
 
-Material de estudio del curso, organizado por unidades. Todos los ejemplos están escritos en **C#** (.NET) y pueden ejecutarse como aplicaciones de consola.
+Repositorio de estudio y referencia del curso de nivelación de Programación Orientada a Objetos para 4B, desarrollado como material de consulta.
+
+**Autor:** Gon161 — Ingeniería en Software, Universidad Politécnica de Tecamac
+
+---
 
 ## Contenido
 
-| Unidad | Tema | Archivo |
+| Archivo | Descripción |
+|---|---|
+| [`poo-4b-completo.md`](poo-4b-completo.md) | Índice general del temario y tablas de referencia rápida |
+| [`unidad-1-tipos-datos-operadores-cadenas.md`](unidad-1-tipos-datos-operadores-cadenas.md) | Unidad 1: tipos de datos, conversión, `const` y `readonly`, operadores, `string` y `StringBuilder` |
+| [`unidad-2-estructuras-control-y-bucles.md`](unidad-2-estructuras-control-y-bucles.md) | Unidad 2: condicionales, `while`, `do-while`, `for`, `break` y `continue` |
+| [`unidad-3-arreglos.md`](unidad-3-arreglos.md) | Unidad 3: arreglos, clase `Array`, recorridos con `for` y `foreach`, matrices |
+| [`unidad-4-colecciones.md`](unidad-4-colecciones.md) | Unidad 4: arreglos vs colecciones y `List<T>` |
+| [`practica/`](practica/) | Ejercicios y prácticas del curso |
+
+---
+
+## Temas cubiertos
+
+| # | Tema | Archivo |
 |---|---|---|
-| 1 | Tipos de Datos, Operadores y Cadenas | [unidad-1-tipos-datos-operadores-cadenas.md](unidad-1-tipos-datos-operadores-cadenas.md) |
-| 2 | Estructuras de Control y Bucles | [unidad-2-estructuras-control-y-bucles.md](unidad-2-estructuras-control-y-bucles.md) |
-| 3 | Arreglos | [unidad-3-arreglos.md](unidad-3-arreglos.md) |
-| 4 | Colecciones | [unidad-4-colecciones.md](unidad-4-colecciones.md) |
+| 1 | Tipos de Datos, Operadores y Cadenas | [`unidad-1-tipos-datos-operadores-cadenas.md`](unidad-1-tipos-datos-operadores-cadenas.md) |
+| 2 | Estructuras de Control y Bucles | [`unidad-2-estructuras-control-y-bucles.md`](unidad-2-estructuras-control-y-bucles.md) |
+| 3 | Arreglos | [`unidad-3-arreglos.md`](unidad-3-arreglos.md) |
+| 4 | Colecciones | [`unidad-4-colecciones.md`](unidad-4-colecciones.md) |
 
-El temario completo con todos los subtemas está en [poo-4b-completo.md](poo-4b-completo.md).
+---
 
-## Estructura del repositorio
+## Cómo usar
 
-```
-POO-4B/
-├── README.md                                   ← este archivo
-├── poo-4b-completo.md                          ← temario completo e índice
-├── unidad-1-tipos-datos-operadores-cadenas.md
-├── unidad-2-estructuras-control-y-bucles.md
-├── unidad-3-arreglos.md
-├── unidad-4-colecciones.md
-└── practica/                                   ← aquí van tus ejercicios resueltos
-```
+### Leer la guía teórica
 
-## Cómo usar este material
+Abre [`poo-4b-completo.md`](poo-4b-completo.md) para ver el índice general, o directamente el archivo de la unidad, en cualquier visor de Markdown (VS Code, GitHub, Obsidian…).
 
-1. Lee la unidad en orden: cada tema se apoya en el anterior.
-2. Copia los ejemplos en un proyecto de consola y ejecútalos; modifícalos para ver qué cambia.
-3. Resuelve los ejercicios del final de cada unidad dentro de la carpeta `practica/`.
+### Practicar
 
-### Crear un proyecto de consola para practicar
+Crea un proyecto de consola dentro de [`practica/`](practica/) y copia los ejemplos de cada unidad para ejecutarlos y modificarlos:
 
 ```bash
 cd practica
@@ -41,10 +47,15 @@ cd Unidad1
 dotnet run
 ```
 
-> Requiere tener instalado el [SDK de .NET](https://dotnet.microsoft.com/download).
+---
 
-## Convenciones
+## Tecnologías
 
-- El código usa *top-level statements* (C# 9+), así que no siempre verás `class Program` ni `static void Main`.
-- Los comentarios `// →` indican lo que imprime la línea en consola.
-- Los bloques marcados con ⚠️ señalan errores comunes.
+- **Lenguaje:** C# (.NET)
+- **Tema:** Fundamentos de programación para POO (tipos, control de flujo, arreglos y colecciones de `System.Collections.Generic`)
+- **IDE sugerido:** Visual Studio, VS Code con C# Dev Kit o JetBrains Rider
+- **Sin dependencias externas**
+
+---
+
+*Universidad Politécnica de Tecamac — Ingeniería en Software*
